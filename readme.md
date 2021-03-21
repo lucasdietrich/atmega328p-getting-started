@@ -14,7 +14,9 @@ Disassembly with command : `avr-objdump -d .pio/build/pro16MHzatmega328/firmware
 
 Disassembly (cpp + asm) with command : `avr-objdump -S -d .pio/build/pro16MHzatmega328/firmware.elf > disassembly`.
 
+## Preprocessor only
 
+Use following command to do preprocessor only : `C:/Users/ldade/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe -mmcu=atmega328p -DF_CPU=16000000L -DPLATFORMIO=50101 -DARDUINO_AVR_PRO -Iinclude -Isrc -c src/main.cpp -E -o main.i `
 
 ## Sources :
 
