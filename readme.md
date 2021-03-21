@@ -12,6 +12,8 @@ Install `binutils-avr` with command : `sudo apt-get install binutils-avr`
 
 Disassembly with command : `avr-objdump -d .pio/build/pro16MHzatmega328/firmware.elf > disassembly.s`.
 
+Disassembly (cpp + asm) with command : `avr-objdump -S -d .pio/build/pro16MHzatmega328/firmware.elf > disassembly`.
+
 
 
 ## Sources :
